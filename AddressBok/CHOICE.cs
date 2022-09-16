@@ -9,12 +9,12 @@ namespace Addressbok
 {
     internal class CHOICE
     {
-        public static void Choice(int ch)
+        public static void Choice(int ch, addressBok obj)
         {
             int choice = ch;
-            if (choice != 5)
+            if (choice != 5)                
             {
-                addressBok obj = new addressBok();
+                //addressBok obj = new addressBok();
                 do
                 {
                     if (choice == 1)
